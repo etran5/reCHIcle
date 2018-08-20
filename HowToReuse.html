@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <head>
+    <title>How to Reuse</title>
+    <link rel="stylesheet" href="Num3.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Noto+Sans" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="HowToReuse.js"></script>
+  </head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+  <a href="homepage.html">Home</a>
+  <a href="WhatIsRecycling.html">What Is Recycling</a>
+  <a href="HowToRecycle.html">How to Recycle</a>
+  <a href="HowToReduce.html">How to Reduce</a>
+  <a class="active" href="HowToReuse.html">How to Reuse</a>
+  <a href="PoliciesInChicago.html">Policies in Chicago</a>
+  <a href="RecyclingGames.html">Recycling Games</a>
+</div>
+
+<div class=content1>
+  <h1>How to Reuse</h1>
+
+  <p>
+    Reusing materials is another way that many people do to reduce the amount of waste that they create.
+  </p>
+<p align=center>
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</p>
+
+<p>Different ways to reuse materials:</p>
+<button class="collapsible">Open Section 1</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 2</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+<button class="collapsible">Open Section 3</button>
+<div class="content">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+
+</body>
+</html>
