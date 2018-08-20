@@ -12,7 +12,10 @@ body {
     margin: 0;
     font-family: 'Noto Sans', sans-serif;
     line-height: 2.0;
-    background-image: url("forest2.jpg")
+    background-image: url("forest2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
 }
 .body.1{background-image: url("forest2.jpg");
 opacity: .3;}
