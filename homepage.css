@@ -21,7 +21,7 @@ border-radius: 30px;
 
 body {
   font-family: 'Dosis', sans-serif;
-  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(lake2.jpg);
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(lake3.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed !important;
   background-size: 100% !important;
@@ -53,11 +53,12 @@ h1 {
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   line-height: 1;
   margin-bottom: 400px;
-  top: 10px;
+  top: 23%;
+  left: 34%;
   font-weight: 100;
   text-align:center;
   color: black;
-  position:absolute  ;
+  position:absolute;
 }
 
 
