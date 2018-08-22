@@ -211,3 +211,15 @@ label:after {
 .hvrbox.active .hvrbox-text_mobile {
 	display: block;
 }
+.footer{
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #C8FCAE;
+   color: white;
+   text-align: center;
+   font: 15px 'Noto Sans', sans-serif;
+   padding: 16px;
+   width: 1170px;
+}
