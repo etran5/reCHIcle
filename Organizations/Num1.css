@@ -69,3 +69,15 @@ div.content {
     float: none;
   }
 }
+.footer{
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #ADEDFF;
+   color: white;
+   text-align: center;
+   font: 15px 'Noto Sans', sans-serif;
+   padding: 16px;
+   width: 1170px;
+}
