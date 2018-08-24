@@ -1,4 +1,5 @@
 # reCHIcle
+<<<<<<< HEAD
 # GWC-things
 # GWC-things
 # GWC-things
@@ -16,4 +17,7 @@
 # gwc-2018
 # gwc-2018
 # gwc-2018
+# gwc-2018
+=======
+>>>>>>> 407b1e1c8818ae3c79c418ef5b62884c6142109d
 # gwc-2018
