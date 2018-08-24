@@ -1,0 +1,111 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+}
+
+h2{margin-left: 200px;}
+
+h3{text-align: center;
+font-size: 13px;}
+
+body {
+    margin-left: 200px;
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2.0;
+    background-image: url("forest2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.body.1{background-image: url("forest2.jpg");
+opacity: .3;}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #C8FCAE;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #444444;
+  padding: 16px;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.sidebar a.active {
+  background-color: #437251;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #A9E190;
+  color: white;
+}
+
+div.content1 {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+.collapsible {
+    background-color: rgba(160, 255, 170, 0.3);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+}
+
+.active, .collapsible:hover {
+    background-color: rgba(111, 178, 118,0.65);
+}
+
+.content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+.footer{
+   position: bottom;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #C8FCAE;
+   color: white;
+   text-align: center;
+   font: 15px 'Noto Sans', sans-serif;
+   padding: 16px;
+   width: 1170px;
+}

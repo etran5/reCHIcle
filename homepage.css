@@ -1,0 +1,85 @@
+
+@font-face {
+  font-family: 'Calluna';
+  src: url('https://fonts.googleapis.com/css?family=Dosis:400,700') format('opentype');
+}
+* {
+  box-sizing: border-box;
+}
+
+head{
+  text-align: center;
+  text-family:'Dosis', sans-serif
+}
+
+header{ text-align: top;
+background: white;
+color: #444444;
+padding:20px;
+border-radius: 30px;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), url(lake3.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed !important;
+  background-size: 100% !important;
+  background-position: center top !important;
+  padding: 320px 260px;
+  padding-top: 45%;
+  color: #444444;
+}
+.button {
+    font-family: 'Dosis', sans-serif;
+    background: linear-gradient(to right, #6FB5FF, #87FF92);
+    color: white;
+    padding: 43px;
+    font-size: 18px;
+    margin: 15px 18px;
+    box-shadow: 2px 8px 30px rgba(0, 50, 255, .15);
+    width: 45%;
+    border-radius: 30px;
+    outline:none;
+}
+
+.button:hover {
+  box-shadow: 2px 8px 45px rgba(0, 0, 0, .15);
+  transform: translate3D(0, -2px, 0);
+}
+
+h1 {
+  font-size: 9rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  line-height: 1;
+  margin-bottom: 400px;
+  top: 23%;
+  left: 34%;
+  font-weight: 100;
+  text-align:center;
+  color: black;
+  position:absolute;
+}
+
+
+h2 {
+  top:10px;
+  font-family: 'Dosis',sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  font-size: 35px;
+  border: 1px solid black;
+  padding-top: 38px;
+  padding-bottom:20px;
+  padding-left: 50px;
+  padding-right:50px;
+}
+
+
+
+span {
+  display: block;
+  margin: 0;
+  text-align: center;
+  font-size: 3rem;
+}

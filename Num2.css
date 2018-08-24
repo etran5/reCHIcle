@@ -1,0 +1,74 @@
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 100px;
+  font-weight: 100;
+  text-align: center;
+}
+
+
+body {
+    font-size: 18px;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 2.0;
+    background-image: url("forest2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  
+}
+.body.1{background-image: url("forest2.jpg");
+opacity: .3;}
+
+
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #C8FCAE;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+.sidebar a {
+  display: block;
+  color: #444444;
+  padding: 16px;
+  text-decoration: none;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.sidebar a.active {
+  background-color: #437251;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #A9E190;
+  color: white;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
